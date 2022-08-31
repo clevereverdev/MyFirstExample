@@ -6,13 +6,14 @@ using std::endl;
 
 int main()
 {
-    cout<<"Hi, please enter two whole numbers: ";
+    cout << "Hi, please enter two whole numbers: ";
 
-    int x,y;
+    int x, y;
 
     cin >> x >> y;
     cout << x + y << endl;
     cout << x * y << endl;
+    cout << x - y << endl;
 
     return 0;
 }
